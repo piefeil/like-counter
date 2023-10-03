@@ -1,0 +1,8 @@
+Para fazer:
+- Tabela com a soma de curtidas enviadas e recebidas de todos e o xp total
+- Buscar uma forma de validar as mensagens
+- Quantidade de curtidas que cada um enviou pra cada um 
+
+Feitas:
+
+- Número de curtidas enviadas e recebidas de "Todos" foi destrocada.

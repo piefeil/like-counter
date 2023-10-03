@@ -93,14 +93,14 @@ while True:
                 tabela_soma = tabela_somatorio(intervalo_df)
                 print(tabela_soma)
 
-                curtidas_enviadas_df = curtidas_recebidas_totalf(tabela)
+                curtidas_enviadas_df = curtidas_enviadas_totalf(tabela)
                 print('\nCurtidas enviadas:')
                 print()
                 print(curtidas_enviadas_df)
 
                 print()
 
-                curtidas_recebidas_df = curtidas_enviadas_totalf(tabela)
+                curtidas_recebidas_df = curtidas_recebidas_totalf(tabela)
                 print('\nCurtidas recebidas:')
                 print()
                 print(curtidas_recebidas_df)
