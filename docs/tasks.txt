@@ -4,5 +4,4 @@ Para fazer:
 - Quantidade de curtidas que cada um enviou pra cada um 
 
 Feitas:
-
 - Número de curtidas enviadas e recebidas de "Todos" foi destrocada.
