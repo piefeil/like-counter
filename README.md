@@ -22,7 +22,7 @@ O contador de curtidas foi feito sob a necessidade de contar inúmeros dados de 
 
 ## Stack utilizada/Stack used
 
-**Back-end:** Python, Pandas, Datetime, Random.
+**Tecnologias:** Python, Pandas, Datetime, Random, Excel.
 
 
 ## Rodando localmente/Running locally
