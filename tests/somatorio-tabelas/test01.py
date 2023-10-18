@@ -25,5 +25,3 @@ def tabela_somatorio(tabela):
     print (tabela_curtidas)
 
 print(tabela_somatorio(tabela))    
-
-# Preciso importar o código aqui para fazer os testes

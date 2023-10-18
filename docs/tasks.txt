@@ -3,14 +3,19 @@ To-do:
 - Buscar uma forma de validar as mensagens
     - Com menos de 5 caracteres
     - Curtida enviada para si mesmo
-- Quantidade de curtidas que cada pessoa enviou para outra
+- Criar forma de verificar quantidade de curtidas que cada pessoa enviou para outra
 - Criar classes para organizar o projeto
 - Versão en-us do código
+- Criar uma interface
+- Documentar o código
 
 Feitas:
 - Número de curtidas enviadas e recebidas de "Todos" foi destrocada. - 07.10.23
 - Renomeear as funções - 17.10.23
-- Criar pastas para testes com loop - 17.10.23
+- Criar pastas para testes com loop e list - 17.10.23
+- Criar pasta de teste para somatório das tabelas - 17.10.23
 - Remover pasta de versões antigas - 17.10.23
-- Comentar o código - 17.10.23
+- Comentar o código main - 17.10.23
 - Adicionar Gerador de Planinha personalizado - 17.10.23
+- Construir identação do código main e gerador-de-planilhas - 17.10.23
+- Criar pasta para as funções - 17.10.23    
