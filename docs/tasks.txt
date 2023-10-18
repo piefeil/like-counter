@@ -1,7 +1,16 @@
-Para fazer:
+To-do:
 - Tabela com a soma de curtidas enviadas e recebidas de todos e o xp total
 - Buscar uma forma de validar as mensagens
-- Quantidade de curtidas que cada um enviou pra cada um 
+    - Com menos de 5 caracteres
+    - Curtida enviada para si mesmo
+- Quantidade de curtidas que cada pessoa enviou para outra
+- Criar classes para organizar o projeto
+- Versão en-us do código
 
 Feitas:
-- Número de curtidas enviadas e recebidas de "Todos" foi destrocada.
+- Número de curtidas enviadas e recebidas de "Todos" foi destrocada. - 07.10.23
+- Renomeear as funções - 17.10.23
+- Criar pastas para testes com loop - 17.10.23
+- Remover pasta de versões antigas - 17.10.23
+- Comentar o código - 17.10.23
+- Adicionar Gerador de Planinha personalizado - 17.10.23
