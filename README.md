@@ -1,5 +1,5 @@
 ### English Version
-[Click here to visit the English version branch](https://github.com/piefeil/like-counter/tree/language/en-us)
+[en-us](https://github.com/piefeil/like-counter/tree/language/en-us)
 
 # Contador de Curtidas
 
