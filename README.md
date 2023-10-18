@@ -1,3 +1,5 @@
+### Versão em Português
+[pt-br](https://github.com/piefeil/like-counter/tree/language/pt-br)
 
 # Like Counter
 
