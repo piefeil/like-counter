@@ -1,44 +1,44 @@
 
-# Contador de Curtidas/Like Counter
+# Like Counter
 
-O contador de curtidas foi feito sob a necessidade de contar inúmeros dados de uma planilha. Dentro da empresa, os funcionários enviavam curtidas em formato de cards para outros funcionários os parabenizando por algum feito, esses cards são convertidos para uma planilha, então o Contador de Curtidas surgiu dessa necessidade de contabilizar quantas curtidas cada membro enviou e recebeu e, o programa cumpre o papel de automatizar esse processo. 
+The likes counter was created based on the need to count countless data in a spreadsheet. Within the company, employees sent likes in the form of cards to other employees congratulating them on some achievement, these cards are converted to a spreadsheet, so the Likes Counter arose from this need to count how many likes each member sent and received and the program fulfills the role of automating this process.
 
-
-## Demonstração/Demonstration
+## Demonstration
 
 ![Demonstration Like Counter](https://github.com/piefeil/like-counter/assets/80473682/cec863de-1eb8-4dcd-8910-1ccc271472d2)
 
 
-## Funcionalidades/Functionalities
+## Functionalities
 
-- Exibir duas tabelas com a quantidade de curtidas enviadas e recebidas;
-- Mostrar os resultados de cada funcionário individualmente;
-- Mostrar a soma de curtidas enviadas e recebidas individualmente;
-- Fazer o cálculo automático de quantos XP na empresa o funcionário ganhou com a quantidade de curtidas (cada curtida vale 50 XP);
-- Permite que o usuário selecione apenas as informações que ele quer extrair do código;
-- É possível que o usuário crie uma tabela aleatória com o Gerador de Planilhas;
-- Permite rodar o programa várias vezes sem ter que executar o código novamente.
-
-
-## Stack utilizada/Stack used
-
-**Tecnologias:** Python, Pandas, Datetime, Random, Excel.
+- Display two tables with the number of likes sent and received;
+- Show the results of each employee individually;
+- Show the sum of likes sent and received individually;
+- Automatically calculate how many XP in the company the employee earned with the number of likes (each like is worth 50 XP);
+- Allows the user to select only the information he wants to extract from the code;
+- It is possible for the user to create a random table with the Spreadsheet Generator;
+- Allows you to run the program several times without having to run the code again.
 
 
-## Rodando localmente/Running locally
+## Stack used
 
-Clone o projeto
+**Technologies:** Python, Pandas, Datetime, Random, Excel.
+
+
+## Running locally
+
+Clone the project
+
 ```bash
   git clone https://github.com/piefeil/like-counter.git
 ```
 
-Entre no diretório do projeto
+Enter the project directory
 
 ```bash
-  cd like-counter
+  cd like-counter/
 ```
 
-Instale as dependências
+Install dependencies
 
 ```bash
   pip install pandas
@@ -46,24 +46,24 @@ Instale as dependências
   pip instal datetime
 ```
 
-Inicie o servidor
+Start the server
 
 ```bash
   python main.py
 ```
 
 
-## Autores/Authors
+## Authors
 
 - [@piefeil](https://www.github.com/piefeil)
 
 
-## Licença/License
+## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
 ## Feedback
 
-Se você tiver algum feedback, por favor me deixe saber por meio de piefeilcontato@gmail.com
+If you have any feedback, please let me know via piefeilcontato@gmail.com
 
