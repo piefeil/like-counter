@@ -104,7 +104,7 @@ while True:
                 data_inicial = input('Insira a data inicial:')
                 data_final = input('Insira a data final:')
                 intervalo_df = tabela.loc[(tabela['Criado em']>= data_inicial) & (tabela['Criado em'] <= data_final)]
-                intervalo_df = tabela
+                tabela = intervalo_df
 
 
                 curtidas_enviadas = curtidas_recebidas_todos(intervalo_df)
