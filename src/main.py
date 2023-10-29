@@ -1,5 +1,6 @@
 import pandas as pd
 from datetime import datetime
+from somatorio_tabela import somatorio_tabelas
 
 # Importa as bibliotecas necessárias do código
     # Pandas é usado para ler a tabela de dados
@@ -133,6 +134,9 @@ while True:
                 print('\nCurtidas recebidas:')
                 print()
                 print(curtidas_recebidas_df)
+
+
+                print(somatorio_tabelas())
               
               
              

@@ -8,6 +8,11 @@ To-do:
 - Versão en-us do código
 - Criar uma interface
 - Documentar o código
+- Diminuir código, principalmente em somatorio-tabela
+- Descobrir o porquê o somatorio-tabela/test03.py não está funcionando
+- Fazer um menu mais agradável no terminal 
+- Se a pssoa não inserir um nome válido mostrar que está inválido e perguntar se gostaria de vir a lista de membros 
+- Peguntar se gostaria de ver a lista de membros no início do programa.
 
 Feitas:
 - Número de curtidas enviadas e recebidas de "Todos" foi destrocada. - 07.10.23
@@ -19,3 +24,6 @@ Feitas:
 - Adicionar Gerador de Planinha personalizado - 17.10.23
 - Construir identação do código main e gerador-de-planilhas - 17.10.23
 - Criar pasta para as funções - 17.10.23    
+- Adicionado o nome "Rafael Santos" no gerador de planilha - 29.30.2023
+- Correção para permitir a entrada de datas repetidas no gerador-de-planilha - 29.30.2023
+- Criar somatorio-tabelas - 29.30.23

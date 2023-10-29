@@ -7,12 +7,12 @@ from datetime import datetime, timedelta
 # Lista de nomes
 nomes = ['Lucas Silva', 'Pablo Laud', 'Carol Mendonça', 'Vitor Cruz', 'Mariana Andrade', 
          'Breno De Paula', 'Iara Rodrigues', 'Dairus Martins', 'Marcela Braga', 'Pietro Kainã', 
-         'Antônio Lucas', 'Rosilene Santos', 'Lauren Iensse', 'Ariane Miranda', 'Aline Martins']
+         'Antônio Lucas', 'Rosilene Santos', 'Lauren Iensse', 'Ariane Miranda', 'Aline Martins', 'Rafael Santos']
 
 
 
 # Probabilidades dos nomes
-probabilidades = [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]  # As probabilidades podem ser ajustadas conforme necessário
+probabilidades = [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]  # As probabilidades podem ser ajustadas conforme necessário
 
 
 
@@ -34,14 +34,27 @@ def gerar_nomes_com_frequencia(nomes, probabilidades, tamanho):
 
 
 # Função para obter datas aleatórias dentro de um intervalo específico
-def gerar_datas_aleatorias(inicio, fim, quantidade):
+def gerar_datas_aleatorias(inicio, fim, quantidade, datas_existente=None):
     formato = '%d/%m/%Y'
     data_inicio = datetime.strptime(inicio, formato)
     data_fim = datetime.strptime(fim, formato)
     delta = data_fim - data_inicio
-    datas_aleatorias = [data_inicio + timedelta(days=random.randint(0, delta.days)) for _ in range(quantidade)]
-    return [data.strftime(formato) for data in datas_aleatorias]
 
+
+    # Bloco para possibilitar a inserção de datas repetidas
+    if datas_existente is None:
+        datas_existente = []
+
+    datas_aleatorias = []
+    for _ in range(quantidade):
+        if len(datas_existente) > 0 and len(datas_existente) <= quantidade:
+            data = random.choice(datas_existente)
+            datas_aleatorias.append(data)
+        else:
+            data_aleatoria = data_inicio + timedelta(days=random.randint(0, delta.days))
+            datas_aleatorias.append(data_aleatoria)
+
+    return [data.strftime(formato) for data in datas_aleatorias]
 
 
 # Lógica para garantir nomes diferentes nas colunas de envio e recebimento
